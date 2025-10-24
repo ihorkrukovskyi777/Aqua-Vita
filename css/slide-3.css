@@ -1,0 +1,236 @@
+/* Slide 3 Styles */
+.slide-3 {
+    background: #fff;
+    color: var(--text-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slide-3-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Section */
+.slide-3-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 3vw;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.slide-3-header .address {
+    font-size: 1.1vw;
+    color: #666;
+    font-weight: 500;
+}
+
+.slide-3-header .website {
+    font-size: 1.1vw;
+    color: #2C5C54;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.slide-3-header .complex-name {
+    font-size: 1.4vw;
+    color: #2C5C54;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.slide-3-header .page-number {
+    font-size: 1vw;
+    color: #999;
+    font-weight: 500;
+}
+
+/* Main Content */
+.slide-3-main {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 8vw);
+}
+
+/* Left Side - Building Image */
+.slide-3-left {
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.building-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.building-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+}
+
+.logo-circle {
+    width: 8vw;
+    height: 8vw;
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid #2C5C54;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1vw;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: #2C5C54;
+    line-height: 1;
+}
+
+.logo-words {
+    display: flex;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+
+.logo-words .aqua,
+.logo-words .vita {
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.spa-text {
+    font-size: 0.8vw;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 0.5vw;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Right Side - Features Content */
+.slide-3-right {
+    flex: 1;
+    background: #fff;
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-wrapper {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+/* Feature Sections */
+.feature-section {
+    margin-bottom: 2vw;
+}
+
+.feature-title {
+    font-size: 1.4vw;
+    font-weight: 700;
+    color: #2C5C54;
+    margin-bottom: 1vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 2px solid var(--main-color);
+    display: inline-block;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-list li {
+    font-size: 1vw;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 0.8vw;
+    padding-left: 1.5vw;
+    position: relative;
+}
+
+.feature-list li::before {
+    content: "•";
+    color: var(--main-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .slide-3-main {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .slide-3-left {
+        height: 40vh;
+    }
+    
+    .slide-3-right {
+        padding: 2vw;
+    }
+    
+    .feature-title {
+        font-size: 3vw;
+    }
+    
+    .feature-list li {
+        font-size: 2vw;
+    }
+    
+    .logo-circle {
+        width: 15vw;
+        height: 15vw;
+    }
+    
+    .logo-text {
+        font-size: 5vw;
+    }
+    
+    .logo-words .aqua,
+    .logo-words .vita {
+        font-size: 2.5vw;
+    }
+    
+    .spa-text {
+        font-size: 1.5vw;
+    }
+}

@@ -1,0 +1,232 @@
+/* Slide 6 styles */
+#slide6 {
+    background: #fff;
+}
+
+#slide6 .slide-left {
+    background: #fff;
+}
+
+#slide6 .slide-right {
+    background: #fff;
+}
+
+/* Apartment Types Section */
+#slide6 .apartments-section {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#slide6 .apartments-title {
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5vw;
+    text-align: left;
+    line-height: 1.2;
+}
+
+#slide6 .apartments-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#slide6 .apartments-description {
+    margin-bottom: 1vw;
+}
+
+#slide6 .apartments-description p {
+    margin-bottom: 0.8vw;
+    text-align: left;
+}
+
+#slide6 .apartments-description p:last-child {
+    margin-bottom: 0;
+}
+
+/* Apartment Tables */
+#slide6 .apartment-tables {
+    margin-bottom: 1vw;
+}
+
+#slide6 .apartment-table {
+    background: #f8f9fa;
+    border-radius: 0.5vw;
+    padding: 1vw;
+    border: 1px solid #e9ecef;
+}
+
+#slide6 .table-title {
+    font-size: 1vw;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.8vw;
+    margin-top: 1vw;
+    text-align: left;
+}
+
+#slide6 .table-title:first-child {
+    margin-top: 0;
+}
+
+#slide6 .table-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+#slide6 .table-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.8vw;
+    align-items: center;
+    padding: 0.4vw 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+#slide6 .table-row:last-child {
+    border-bottom: none;
+}
+
+#slide6 .room-type {
+    font-size: 0.85vw;
+    font-weight: 500;
+    color: #333;
+    text-align: left;
+}
+
+#slide6 .room-count {
+    font-size: 0.8vw;
+    color: #666;
+    text-align: center;
+}
+
+#slide6 .room-size {
+    font-size: 0.8vw;
+    color: #666;
+    text-align: right;
+    font-weight: 500;
+}
+
+/* Contact Information */
+#slide6 .contact-bottom {
+    margin-top: 1vw;
+    padding-top: 2vw;
+    border-top: 1px solid #eee;
+}
+
+#slide6 .contact-bottom .phone-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1vw;
+}
+
+#slide6 .contact-bottom .phone-numbers a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#slide6 .contact-bottom .phone-numbers a:hover {
+    color: #d2a60e;
+}
+
+#slide6 .contact-bottom .phone-numbers span {
+    color: #333;
+    font-weight: 700;
+}
+
+#slide6 .qr-and-text {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: center;
+}
+
+#slide6 .qr-and-text .qr-code img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Building Image */
+#slide6 .building-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border-radius: 0.5vw;
+    overflow: hidden;
+}
+
+#slide6 .building-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5vw;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #slide6 .apartments-title {
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+
+    #slide6 .apartments-description p {
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+    }
+
+    #slide6 .apartment-tables {
+        margin-bottom: 3vw;
+    }
+
+    #slide6 .apartment-table {
+        padding: 2vw;
+    }
+
+    #slide6 .table-title {
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+
+    #slide6 .table-title:first-child {
+        margin-top: 0;
+    }
+
+    #slide6 .table-content {
+        gap: 1.5vw;
+    }
+
+    #slide6 .table-row {
+        gap: 2vw;
+        padding: 1vw 0;
+    }
+
+    #slide6 .room-type,
+    #slide6 .room-count,
+    #slide6 .room-size {
+        font-size: 2vw;
+    }
+
+    #slide6 .contact-bottom .phone-numbers {
+        font-size: 2.5vw;
+    }
+    
+    #slide6 .contact-text div {
+        font-size: 1.8vw;
+    }
+}

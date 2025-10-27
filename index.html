@@ -11,29 +11,70 @@
   <link rel="stylesheet" href="css/slide-1.css">
   <link rel="stylesheet" href="css/slide-2.css">
   <link rel="stylesheet" href="css/slide-3.css">
+  <link rel="stylesheet" href="css/slide-4.css">
+  <link rel="stylesheet" href="css/slide-5.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide slide-1">
-            <div class="flex_wrap">  
-                <div class="flex_row">
-                    <div class="header">
-                        <a href="https://new-lviv.com.ua/">new-lviv.com.ua</a>
-                        <img src="images/logo.png" alt="logo">
-                    </div>  
+      <div class="swiper-slide slide-1" id="slide1">
+        <div class="slide-container">
+          <img class="slide-background" src="images/slide2.jpeg" alt="building">
+
+          <!-- Main Content -->
+          <div class="slide-main">
+            <!-- Left Side - Contact Information -->
+            <div class="slide-left">
+              <div class="contact-section">
+                <div class="aqua-vita-title">AquaVita</div>
+                <div class="qr-code">
+                  <img src="images/qr.png" alt="QR Code">
                 </div>
+                <div class="phone-numbers">
+                  <a href="tel:+380663335573">+380 (66) 333 55 73</a>
+                  <span>|</span>
+                  <a href="tel:+380673335573">+380 (67) 333 55 73</a>
+                </div>
+                <div class="cta-message">
+                  Відділ продажу ЖК «Aqua Vita» допоможе обрати найкращий варіант для Вас!
+                </div>
+                <div class="website-link">
+                  <a href="https://new-lviv.com.ua/">new-lviv.com.ua</a>
+                </div>
+                <div class="company-logo">
+                  <img src="images/logo-white.png" alt="Новий Львів">
+                  
+                </div>
+              </div>
             </div>
+
+            <!-- Right Side - Main Branding -->
+            <div class="slide-right">
+              <div class="branding-section">
+                <div class="main-title">
+                  <div class="title-line">Aqua</div>
+                  <div class="title-line">Vita</div>
+                </div>
+                <div class="slogan">
+                  <div class="slogan-line">ЖК «Aqua Vita» —</div>
+                  <div class="slogan-line">створений для</div>
+                  <div class="slogan-line">комфортного життя</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="swiper-slide slide-2">
-        <div class="slide-2-container">
+      <div class="swiper-slide" id="slide2">
+        <div class="slide-container">
           <!-- Header Section -->
-          <div class="slide-2-header">
+          <div class="slide-header">
             <div class="address line_bottom">вул. Куцина Олега, 30</div>
             <div class="website line_bottom icon"><a href="https://new-lviv.com.ua/">new-lviv.com.ua</a></div>
             <div class="complex-name line_bottom">AQUA VITA</div>
@@ -41,16 +82,16 @@
           </div>
 
           <!-- Main Content -->
-          <div class="slide-2-main">
+          <div class="slide-main">
             <!-- Left Side - Image -->
-            <div class="slide-2-left">
+            <div class="slide-left">
               <div class="building-image">
                     <img src="images/slide1.jpeg" alt="building">
               </div>
             </div>
 
             <!-- Right Side - Text Content -->
-            <div class="slide-2-right">
+            <div class="slide-right">
               <div class="content-wrapper">
                 <h1 class="main-heading">Створений для комфортного життя</h1>
                 
@@ -86,37 +127,29 @@
           </div>
         </div>
       </div>
-       <div class="swiper-slide slide-3">
-         <div class="slide-3-container">
+       <div class="swiper-slide ">
+         <div class="slide-container">
            <!-- Header Section -->
-           <div class="slide-3-header">
+           <div class="slide-header">
              <div class="address line_bottom">вул. Куцина Олега, 30</div>
              <div class="website line_bottom icon"><a href="https://new-lviv.com.ua/">new-lviv.com.ua</a></div>
              <div class="complex-name line_bottom">AQUA VITA</div>
-             <div class="page-number line_bottom">03</div>
+             <div class="page-number line_bottom">02</div>
            </div>
 
            <!-- Main Content -->
-           <div class="slide-3-main">
+           <div class="slide-main">
              <!-- Left Side - Building Image -->
-             <div class="slide-3-left">
+             <div class="slide-left">
                <div class="building-image">
-                 <img src="images/slide3-building.jpg" alt="building">
-                 <div class="logo-overlay">
-                   <div class="logo-circle">
-                     <div class="logo-text">AV</div>
-                   </div>
-                   <div class="logo-words">
-                     <span class="aqua">AQUA</span>
-                     <span class="vita">VITA</span>
-                   </div>
-                   <div class="spa-text">SPA center</div>
-                 </div>
+                 <img src="images/slide2.jpeg" alt="building">
                </div>
+               <img class="logo-overlay-top" src="images/logo-aqua.png" alt="logo">
+               <img class="logo-overlay-bottom" src="images/logo-white.png" alt="logo">
              </div>
 
              <!-- Right Side - Features Content -->
-             <div class="slide-3-right">
+             <div class="slide-right">
                <div class="content-wrapper">
                  <!-- Underground Parking Section -->
                  <div class="feature-section">
@@ -163,12 +196,201 @@
            </div>
          </div>
        </div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
+
+       <!-- SLIDE3 -->
+        <div class="swiper-slide slide-3" id="slide3">
+        <div class="slide-container">
+          <!-- Header Section -->
+          <div class="slide-header">
+            <div class="page-number line_bottom">03</div>
+            <div class="complex-name line_bottom">AQUA VITA</div>
+            <div class="address line_bottom">вул. Куцина Олега, 30</div>
+            <div class="website line_bottom icon"><a href="https://new-lviv.com.ua/">new-lviv.com.ua</a></div>
+            
+          </div>
+
+          <!-- Main Content -->
+          <div class="slide-main reverse">
+
+             <!-- Right Side - Landscaping Content -->
+             <div class="slide-right">
+              <div class="content-wrapper">
+                <!-- Landscaping Section -->
+                <div class="landscaping-section">
+                  <h3 class="landscaping-title">Благоустрій</h3>
+                  
+                  <div class="landscaping-content">
+                    <p>Територія ЖК «Aqua Vita» спроєктована як продовження житлового простору — місце, де можна відпочити, прогулятись або провести час із родиною, не залишаючи меж комплексу.</p>
+                    
+                    <p>Між двома секціями розташований внутрішній двір без автомобілів — затишне місце для щоденного дозвілля мешканців. Тут облаштовано сучасний дитячий майданчик із безпечним покриттям, ігровими зонами та тіньовими навісами, а поруч — зона відпочинку для батьків із лавами та перголами.</p>
+                    
+                    <p>Біля майданчика передбачено воркаут-зону для підлітків і дорослих, а вечірнє декоративне освітлення робить територію комфортною та безпечною у будь-який час доби.</p>
+                    
+                    <p>По периметру комплексу прокладено пішохідні доріжки з фем-покриттям, озеленення з газонами, кущами й деревами середніх порід. З боку прибережної смуги облаштовано тиху рекреаційну зону для прогулянок і спокійного відпочинку серед природи.</p>
+                  </div>
+
+                  <!-- Contact Information -->
+                  <div class="contact-bottom">
+                    <div class="phone-numbers">
+                      <a href="tel:+380663335573">+380 (66) 333 55 73</a>
+                      <span>|</span>
+                      <a href="tel:+380673335573">+380 (67) 333 55 73</a>
+                    </div>
+                    <div class="qr-and-text">
+                      <div class="qr-code">
+                        <img src="images/qr.png" alt="QR Code">
+                      </div>
+                      <div class="contact-text">
+                        <div>Відділ продажу ЖК «Aqua Vita»</div>
+                        <div>допоможе обрати найкращий варіант для Вас!</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Left Side - Building Image -->
+            <div class="slide-left">
+              <div class="building-image">
+                <img src="images/slide2.jpeg" alt="building">
+              </div>
+              <img class="logo-overlay-top" src="images/logo-aqua.png" alt="logo">
+              <img class="logo-overlay-bottom" src="images/logo-white.png" alt="logo">
+            </div>
+
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 4 - Site Plan -->
+      <div class="swiper-slide slide-4" id="slide4">
+        <div class="slide-container">
+          <!-- Header Section -->
+          <div class="slide-header">
+            <div class="address line_bottom">вул. Заводська, 1</div>
+            <div class="website line_bottom icon"><a href="https://new-lviv.com.ua/">new-lviv.com.ua</a></div>
+            <div class="complex-name line_bottom">AQUA VITA</div>
+            <div class="page-number line_bottom">04</div>
+          </div>
+
+          <!-- Main Content -->
+          <div class="slide-main">
+            <!-- Left Side - Site Plan Map -->
+            <div class="slide-left">
+              <div class="site-plan-image">
+                <!-- Site plan image will be inserted here -->
+                <img src="images/slide5.jpeg" alt="План території ЖК Aqua Vita">
+              </div>
+            </div>
+
+            <!-- Right Side - Legend and Contact Info -->
+            <div class="slide-right">
+              <div class="content-wrapper">
+                <!-- Legend Section -->
+                <div class="legend-section">
+                  <h3 class="legend-title">AQUA VITA</h3>
+                  
+                  <div class="legend-content">
+                    
+                    
+                    <div class="legend-list">
+                      
+                      <div class="legend-entry"><span class="brown-flag"></span> Входи в житлові будинки</div>
+                      <div class="legend-entry"><span class="green-flag"></span> В'їзд/виїзд в підземний паркінг</div>
+                      <div class="legend-entry"><span class="legend-number">1</span> Житловий будинок №1 (1 черга)</div>
+                      <div class="legend-entry"><span class="legend-number">2</span> Житловий будинок №2 (1 черга)</div>
+                      <div class="legend-entry"><span class="legend-number">3</span> Житловий будинок №3 (2 черга)</div>
+                      <div class="legend-entry"><span class="legend-number">4</span> Житловий будинок №4 (2 черга)</div>
+                      <div class="legend-entry"><span class="legend-number">5</span> Підземний паркінг</div>
+                      <div class="legend-entry"><span class="legend-number">6</span> Гостьовий паркінг</div>
+                      <div class="legend-entry"><span class="legend-number">7</span> Майданчик для стоянки велосипедів</div>
+                      <div class="legend-entry"><span class="legend-number">8</span> Дитячий майданчик</div>
+                      <div class="legend-entry"><span class="legend-number">9</span> Майданчик для занять фізкультурою</div>
+                      <div class="legend-entry"><span class="legend-number">10</span> Майданчик для відпочинку</div>
+                      <div class="legend-entry"><span class="legend-number">11</span> Майданчик для збирання побутових відходів</div>
+                      <div class="legend-entry"><span class="legend-number">12</span> Трансформаторна підстанція</div>
+                    </div>
+                  </div>
+
+                  <!-- Contact Information -->
+                  <div class="contact-bottom">
+                    <div class="phone-numbers">
+                      <a href="tel:+380663335573">+380 (66) 333 55 73</a>
+                      <span>|</span>
+                      <a href="tel:+380673335573">+380 (67) 333 55 73</a>
+                    </div>
+                    <div class="qr-and-text">
+                      <div class="qr-code">
+                        <img src="images/qr.png" alt="QR Code">
+                      </div>
+                      <div class="contact-text">
+                        <div>Відділ продажу ЖК «Aqua Vita»</div>
+                        <div>допоможе обрати найкращий варіант для Вас!</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 5 - Building Technologies -->
+      <div class="swiper-slide slide-5" id="slide5">
+        <div class="slide-container">
+          <!-- Header Section -->
+          <div class="slide-header">
+            <div class="address line_bottom">вул. Куцина Олега, 30</div>
+            <div class="website line_bottom icon"><a href="https://new-lviv.com.ua/">new-lviv.com.ua</a></div>
+            <div class="complex-name line_bottom">AQUA VITA</div>
+            <div class="page-number line_bottom">05</div>
+          </div>
+
+          <!-- Main Content -->
+          <div class="slide-main reverse">
+            <!-- Left Side - Building Image -->
+            
+
+            <!-- Right Side - Technologies List -->
+            <div class="slide-right">
+              <div class="content-wrapper">
+                <!-- Technologies Section -->
+                <div class="technologies-section">
+                  <h3 class="technologies-title">Технології будівництва</h3>
+                  
+                  <div class="technologies-content">
+                    <div class="technologies-list">
+                      <div class="technology-item">Монолітно-каркасна технологія</div>
+                      <div class="technology-item">Залізобетонні плити перекриття</div>
+                      <div class="technology-item">Шумоізоляційні матеріали</div>
+                      <div class="technology-item">Декоративна штукатурка</div>
+                      <div class="technology-item">Вентильовані фасади</div>
+                      <div class="technology-item">Алюмінієвий віконний профіль</div>
+                      <div class="technology-item">Енергозберігаючі склопакети</div>
+                      <div class="technology-item">Індивідуальне опалення</div>
+                      <div class="technology-item">Припливно-витяжна вентиляція</div>
+                      <div class="technology-item">Безшумні, енергоефективні ліфти</div>
+                      <div class="technology-item">Сучасні LED-системи</div>
+                      <div class="technology-item">Цілодобове відеоспостереження</div>
+                      <div class="technology-item">Контроль доступу</div>
+                      <div class="technology-item">Система пожежної безпеки</div>
+                      <div class="technology-item">Безбар'єрний доступ</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide-left">
+              <div class="building-image">
+                <img src="images/slide1.jpeg" alt="Будівлі ЖК Aqua Vita">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="swiper-pagination"></div>
   </div>

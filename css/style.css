@@ -37,7 +37,6 @@ a {
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +189,9 @@ a {
     justify-content: space-between;
     
 }
-
+.swiper-pagination {
+    right: 10px !important;
+}
 .swiper-pagination-bullet {
     background: transparent;
     opacity: 1;

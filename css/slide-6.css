@@ -158,24 +158,8 @@
     object-fit: contain;
 }
 
-/* Building Image */
-#slide6 .building-image {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f8f9fa;
-    border-radius: 0.5vw;
-    overflow: hidden;
-}
 
-#slide6 .building-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0.5vw;
-}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

@@ -1,0 +1,20 @@
+/* Slide 13 styles - Floor Plan */
+#slide13 {
+    background: #fff;
+}
+
+#slide13 .slide-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#slide13 .slide-header {
+    flex: 0 0 auto;
+}
+
+#slide13 .floor-image {
+    height: 80% !important;
+    object-fit: contain !important;
+}
+

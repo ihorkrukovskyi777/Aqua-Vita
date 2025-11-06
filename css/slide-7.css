@@ -1,0 +1,136 @@
+/* Slide 7 styles */
+#slide7 {
+    background: #fff;
+}
+
+#slide7 .slide-left {
+    background: #fff;
+}
+
+#slide7 .slide-right {
+    background: #fff;
+}
+
+/* SPA Section */
+
+#slide7 .spa-section p {
+    text-align: left;
+}
+
+#slide7 .spa-section p:last-child {
+    margin-bottom: 0;
+}
+
+/* Commercial Premises Section */
+#slide7 .commercial-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vw;
+}
+
+#slide7 .commercial-title {
+    text-align: left;
+}
+
+#slide7 .commercial-list {
+    display: flex;
+    flex-direction: column;
+}
+
+#slide7 .commercial-item {
+    text-align: left;
+    padding: 0.5vw 0;
+    border-bottom: 1px solid #e9ecef;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+#slide7 .commercial-item:last-child {
+    border-bottom: none;
+}
+
+/* Contact Information */
+#slide7 .contact-bottom {
+    margin-top: 1vw;
+    padding-top: 2vw;
+    border-top: 1px solid #eee;
+}
+
+#slide7 .contact-bottom .phone-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    font-size: 1.2vw;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1vw;
+}
+
+#slide7 .contact-bottom .phone-numbers a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#slide7 .contact-bottom .phone-numbers a:hover {
+    color: #d2a60e;
+}
+
+#slide7 .contact-bottom .phone-numbers span {
+    color: #333;
+    font-weight: 700;
+}
+
+#slide7 .qr-and-text {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: center;
+}
+
+#slide7 .qr-and-text .qr-code img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+#slide7 .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+}
+
+#slide7 .contact-text div {
+    font-size: 0.9vw;
+    color: #333;
+    line-height: 1.3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #slide7 .spa-section p {
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+    }
+
+    #slide7 .commercial-title {
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+
+    #slide7 .commercial-item {
+        font-size: 2.5vw;
+        padding: 1vw 0;
+    }
+
+    #slide7 .contact-bottom .phone-numbers {
+        font-size: 2.5vw;
+    }
+    
+    #slide7 .contact-text div {
+        font-size: 1.8vw;
+    }
+}
+

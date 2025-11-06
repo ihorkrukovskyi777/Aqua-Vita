@@ -1,0 +1,151 @@
+/* Slide 17 Styles - Similar to Slide 16 */
+#slide17 {
+    background: #fff;
+    color: #333;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Site Plan Image */
+#slide17 .site-plan-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slide17 .site-plan-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#slide17 .slide-left {
+    height: 80%;
+}
+/* Parking Content Section */
+#slide17 .parking-content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Introduction Text */
+#slide17 .parking-intro {
+    margin-bottom: 2vw;
+}
+
+#slide17 .parking-intro p {
+    text-align: left;
+}
+
+#slide17 .parking-intro p:last-child {
+    margin-bottom: 0;
+}
+
+#slide17 .parking-intro strong {
+    color: #2C5C54;
+    font-weight: 700;
+}
+
+/* Parking Section */
+#slide17 .parking-section {
+    margin-bottom: 2vw;
+}
+
+#slide17 .parking-section-title {
+    font-size: 1.8vw;
+    font-weight: 700;
+    color: #BB8F68;
+    margin-bottom: 1vw;
+    text-align: left;
+    margin: 0;
+}
+
+#slide17 .parking-details {
+    display: flex;
+    flex-direction: column;
+}
+
+#slide17 .parking-detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4vw 0;
+    border-bottom: 1px solid #DECAB6;
+}
+
+#slide17 .parking-detail-item:last-child {
+    border-bottom: none;
+}
+
+#slide17 .detail-label {
+    font-weight: 500;
+}
+
+#slide17 .detail-value {
+    color: #2C5C54;
+    font-weight: 700;
+}
+
+/* Security Section */
+#slide17 .security-section {
+    margin-bottom: 2vw;
+}
+
+#slide17 .security-section-title {
+    font-size: 1.8vw;
+    font-weight: 700;
+    color: #BB8F68;
+    text-align: left;
+    margin: 0;
+}
+
+#slide17 .security-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+#slide17 .security-item {
+    padding: 0.6vw 0;
+    border-bottom: 1px solid #DECAB6;
+    color: #333;
+    text-align: left;
+}
+
+#slide17 .security-item:last-child {
+    border-bottom: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #slide17 .slide-main {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    #slide17 .slide-left,
+    #slide17 .slide-right {
+        padding: 2vw;
+    }
+    
+    #slide17 .parking-intro p {
+        font-size: 2.5vw;
+    }
+    
+    #slide17 .parking-section-title,
+    #slide17 .security-section-title {
+        font-size: 4vw;
+    }
+    
+    #slide17 .parking-detail-item,
+    #slide17 .security-item {
+        font-size: 2vw;
+        padding: 1vw 0;
+    }
+}
+

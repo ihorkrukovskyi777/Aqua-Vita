@@ -1,0 +1,20 @@
+/* Slide 9 styles - Floor Plan */
+#slide9 {
+    background: #fff;
+}
+
+#slide9 .slide-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#slide9 .slide-header {
+    flex: 0 0 auto;
+}
+
+#slide9 .floor-image {
+    height: 80% !important;
+    object-fit: contain !important;
+}
+

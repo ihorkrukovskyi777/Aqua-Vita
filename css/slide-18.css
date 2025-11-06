@@ -1,0 +1,24 @@
+#slide18 {
+    position: relative;
+}
+
+#slide18 .logo-footer {
+    position: absolute;
+    left: 5vw;
+    top: 6vw;
+    z-index: 10;
+    max-width: 150px;
+}
+#slide18 .logo-footer img ,
+#slide18 .logo-footer-bottom img {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+#slide18 .logo-footer-bottom {
+    position: absolute;
+    bottom: 5vw;
+    right: 5vw;
+    z-index: 10;
+}

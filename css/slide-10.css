@@ -1,0 +1,20 @@
+/* Slide 10 styles - Floor Plan */
+#slide10 {
+    background: #fff;
+}
+
+#slide10 .slide-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#slide10 .slide-header {
+    flex: 0 0 auto;
+}
+
+#slide10 .floor-image {
+    height: 80% !important;
+    object-fit: contain !important;
+}
+

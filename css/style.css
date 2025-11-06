@@ -114,6 +114,8 @@ a {
     padding: 2vw 3vw;
     background: #fff;
     border-bottom: 1px solid #eee;
+    position: relative;
+    z-index: 10;
 }
 
 .slide-header .address {
@@ -139,7 +141,8 @@ a {
 .slide-header .page-number {
     font-size: 1.1vw;
     color: #999;
-    font-weight: 500;
+    font-weight: 700;
+    color: #BB8F68;
 }
 .slide-main {
     position: relative;
@@ -263,3 +266,24 @@ a {
 @import "slide-2.css";
 @import "slide-3.css"; */
 @import "slide-6.css";
+@import "slide-7.css";
+@import "slide-8.css";
+@import "slide-9.css";
+@import "slide-10.css";
+@import "slide-11.css";
+@import "slide-12.css";
+@import "slide-13.css";
+@import "slide-14.css";
+@import "slide-15.css";
+@import "slide-16.css";
+@import "slide-17.css";
+@import "slide-18.css";
+
+@media (max-width: 1500px) {
+    .slide-main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .slide-main.reverse {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}

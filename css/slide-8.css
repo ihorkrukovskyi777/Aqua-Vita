@@ -1,0 +1,19 @@
+/* Slide 8 styles - Header Only */
+#slide8 {
+    background: #fff;
+}
+
+#slide8 .slide-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#slide8 .slide-header {
+    flex: 0 0 auto;
+}
+
+#slide8 .floor-image {
+    height: 80% !important;
+    object-fit: contain !important;
+}

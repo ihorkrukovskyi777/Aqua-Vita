@@ -82,7 +82,6 @@
 }
 
 #slide1 .aqua-vita-title {
-    font-family: 'Playfair Display', serif;
     font-size: 3vw;
     font-weight: 700;
     color: #fff;
@@ -175,7 +174,6 @@
 }
 
 #slide1 .main-title {
-    font-family: 'Playfair Display', serif;
     font-size: 8vw;
     font-weight: 700;
     color: #fff;
@@ -214,37 +212,5 @@
     #slide1 .slide-left,
     #slide1 .slide-right {
         padding: 2vw;
-    }
-    
-    #slide1 .aqua-vita-title {
-        font-size: 6vw;
-    }
-    
-    #slide1 .main-title {
-        font-size: 12vw;
-    }
-    
-    #slide1 .slogan {
-        font-size: 3vw;
-    }
-    
-    #slide1 .phone-numbers {
-        font-size: 2.5vw;
-    }
-    
-    #slide1 .cta-message {
-        font-size: 2vw;
-    }
-    
-    #slide1 .website-link a {
-        font-size: 2.2vw;
-    }
-    
-    #slide1 .company-name {
-        font-size: 2.5vw;
-    }
-    
-    #slide1 .company-subtitle {
-        font-size: 1.8vw;
     }
 }

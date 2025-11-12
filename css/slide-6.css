@@ -20,12 +20,10 @@
 }
 
 #slide6 .apartments-title {
-    font-size: 1.8vw;
     font-weight: 600;
     color: #333;
     margin-bottom: 1.5vw;
     text-align: left;
-    line-height: 1.2;
 }
 
 #slide6 .apartments-content {
@@ -61,7 +59,6 @@
 }
 
 #slide6 .table-title {
-    font-size: 1vw;
     font-weight: 600;
     color: #333;
     margin-bottom: 0.8vw;
@@ -93,14 +90,12 @@
 }
 
 #slide6 .room-type {
-    font-size: 0.85vw;
     font-weight: 500;
     color: #333;
     text-align: left;
 }
 
 #slide6 .room-count {
-    font-size: 0.8vw;
     color: #666;
     text-align: center;
 }
@@ -124,7 +119,6 @@
     align-items: center;
     justify-content: center;
     gap: 0.5vw;
-    font-size: 1.2vw;
     font-weight: 700;
     color: #333;
     margin-bottom: 1vw;
@@ -164,12 +158,9 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     #slide6 .apartments-title {
-        font-size: 4vw;
         margin-bottom: 3vw;
     }
-
     #slide6 .apartments-description p {
-        font-size: 2.5vw;
         margin-bottom: 2vw;
     }
 
@@ -182,11 +173,9 @@
     }
 
     #slide6 .table-title {
-        font-size: 2.5vw;
         margin-bottom: 2vw;
         margin-top: 2vw;
     }
-
     #slide6 .table-title:first-child {
         margin-top: 0;
     }
@@ -198,19 +187,5 @@
     #slide6 .table-row {
         gap: 2vw;
         padding: 1vw 0;
-    }
-
-    #slide6 .room-type,
-    #slide6 .room-count,
-    #slide6 .room-size {
-        font-size: 2vw;
-    }
-
-    #slide6 .contact-bottom .phone-numbers {
-        font-size: 2.5vw;
-    }
-    
-    #slide6 .contact-text div {
-        font-size: 1.8vw;
     }
 }

@@ -34,7 +34,6 @@
 }
 
 #slide5 .technologies-title {
-    font-size: 2.5vw;
     font-weight: 700;
     color: #2C5C54;
     margin-bottom: 2vw;
@@ -79,12 +78,7 @@
         padding: 2vw;
     }
     
-    #slide5 .technologies-title {
-        font-size: 5vw;
-    }
-    
     #slide5 .technology-item {
-        font-size: 1.8vw;
         padding: 1.5vw 0;
     }
 }
